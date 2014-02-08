@@ -33,7 +33,7 @@ After downloaded node-webkit, in it's directory:
 + Table wordcard saves Imformation of words, how to deal with repeated words in the database?
 
 
- --- 
+-------------------
 I love to accept new technologies and I believe technology can make the world greater.
 
 
