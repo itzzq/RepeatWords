@@ -1,0 +1,165 @@
+<div id = "dashboard" class="grid fluid" style="margin:-10px 0px 0px 10px">
+    <div class="row" >
+        <div class="span3">
+            <nav class="sidebar">
+                <ul>
+                    <li class="title"><i class="icon-yelp"></i>记单词</li>
+                    <li class="active"><a href='#' id="dashboardpage"><i class="icon-home"></i>Dashboard</a></li>
+                    <li class="stick bg-red" ><a href='#' id="accountpage"><i class="icon-user"></i>账户管理</a></li>
+                    <li class="stick bg-yellow">
+                        <a class="dropdown-toggle" href='#'><i class="icon-files"></i>计划管理</a>
+                        <ul class="dropdown-menu" data-role="dropdown">
+                            <li><a href='#' id="myplanpage">我的计划</a></li>
+                            <li class="divider"></li>
+                            <li><a href='#' id="addplanpage"><i class="icon-plus-2"></i>计划</a></li>
+                            <li class="divider"></li>
+                            <li><a href='#' id="deleteplanpage"><i class="icon-minus-2"></i>计划</a></li>
+                        </ul>
+                    </li>
+                    <li class="stick bg-green">
+                        <a class="dropdown-toggle" href='#'><i class="icon-database"></i>单词库管理</a>
+                        <ul class="dropdown-menu" data-role="dropdown">
+                            <li><a href='#'>查看单词库</a></li>
+                            <li class="divider"></li>
+                            <li><a href='#'>添加单词库</a></li>
+                            <li class="divider"></li>
+                            <li><a href='#'>删除单词库</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="dashcontent" class="span9" style="padding-right: 30px;">
+            <div id="checkin" style="display:none;">
+                <div class="padding15 ">
+                    <button class="command-button info shadow" id="actiondefault">
+                        <h3>
+                        <i class="icon-rocket on-left"></i>
+                        执行默认计划
+                        <small class="padding5">我们已经为您精心设计好一套计划，点击即可开始！</small>
+                        </h1>
+                    </button>
+                </div>
+                <div class="padding15 ">
+                    <button class="command-button info shadow" id="editmyself">
+                        <h3>
+                        <i class="icon-pencil on-left"></i>
+                        自行编辑计划
+                        <small class="padding5">如果您想要个性化，没问题，自己的计划自己做主！</small>
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            
+            <div id ="myaccount" style="display:none;">
+                <div id="accounttitle"></div>
+                <div id="accountcontent" class="span6 margin10">
+                    <div>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="span4 text-right" style="vertical-align:middle"><strong>用户名:</strong></td>
+                                <td>
+                                    <p id="username" style="margin: 0 0 3pt;"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="span4 text-right" style="vertical-align:middle"><strong>E-mail:</strong></td>
+                                <td>
+                                    <p id="useremail" style="margin: 0 0 3pt;"></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="accordion with-marker" data-role="accordion">
+                        <div class="accordion-frame">
+                            <a href="#" class="heading ribbed-steel fg-white">修改密码</a>
+                            <div class="content">
+                            <table class="table striped">
+                                <tbody>
+                                    <tr>
+                                        <td class="span4 text-right" style="vertical-align:middle"><strong>原始密码:</strong></td>
+                                        <td>
+                                            <div class="input-control password" data-role="input-control">
+                                                <input type="password" name="password0" placeholder="请输入您的密码" autofocus="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="span4 text-right" style="vertical-align:middle"><strong>修改密码:</strong></td>
+                                        <td>
+                                            <div class="input-control password" data-role="input-control">
+                                                <input type="password" name="newpassword" placeholder="请输入您的密码" >
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="span4 text-right" style="vertical-align:middle"><strong>确认密码:</strong></td>
+                                        <td>
+                                            <div class="input-control password" data-role="input-control">
+                                                <input type="password" name="cpassword" placeholder="请输入您的密码" >
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button class="primary place-right" id="updatepwd" style="margin-top: -16px;">确认修改</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id ="myplan">
+                <div id="myplantitle"></div>
+            </div>
+
+            <div id ="aboutplan">
+                <div id="myclock" style="font-size: 15px">
+                    <h3 id="plantitle" style="display:none;"><i class="icon-bookmark-3"></i>即将执行的计划</h3>
+                </div>
+                
+            </div>
+
+            <div id="editpad" style="display:none;">
+                <div class="buttons">
+                    <button id="new"> <i class="icon-new"></i> New </button>
+                    <button id="open"><i class="icon-folder-2 on-left"></i> Open </button>
+                    <button id="save"><i class="icon-floppy on-left"></i> Save </button>
+                    <button id="transfer"><i class="icon-spin"></i>生成计划</button>
+                </div>
+
+                <div id="editor"></div>
+
+                <input style="display:none;" id="openFile" type="file" />
+                <input style="display:none;" id="saveFile" type="file" nwsaveas />
+            </div>
+
+            <div id="actionplan" class="shadow" style="display:none;">
+                <div id="wordcard">
+                    <div id="wordtitle"><p></p></div>
+                    <div id="wordmeaning"><p></p></div>
+                    <div id="rorf">
+                        <button class="default" id="remember" ><i class="icon-heart"></i>记得</button>
+                        <button class="default" id="forget"><i class="icon-heart-2"></i>忘了</button>
+                    </div>
+                    <div id="recon" style="display:none;">
+                        <button class="default" id="rec" ><i class="icon-heart"></i>对了</button>
+                        <button class="default" id="inrec"><i class="icon-heart-2"></i>错了</button>
+                    </div>
+                    <div id="rem" style="display:none;">
+                         <button class="default" id="remem" ><i class="icon-heart"></i>记住了</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $.getScript("js/metro/metro-dropdown.js");
+    $.getScript("js/metro/metro-accordion.js");
+    $(document).ready(function(){
+        updateContentStyle();
+    });
+</script>

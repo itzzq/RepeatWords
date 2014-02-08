@@ -1,0 +1,22 @@
+{
+	"main" : "main.html",
+	"name" : "爱记单词",
+	"description" : "node-webkit实现的记单词软件",
+	"version" : "0.1.0",
+	"keywords" : [ "爱记单词", "node-webkit" ],
+	"window" : {
+		"toolbar" : false,
+		"frame" : false,
+		"show" : true,
+		"width" : 800,
+		"height" : 550,
+		"position" : "center",
+		"min_width" : 800,
+		"min_height" : 550,
+		"max_width" : 1000,
+		"max_height" : 700
+	},
+	"webkit" : {
+		"plugin" : true
+	}
+}

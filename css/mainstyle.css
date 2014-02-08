@@ -1,0 +1,99 @@
+.mainpage {
+	width:840px;
+	margin:0 auto;
+	padding:50px 150px 50px 100px;
+}
+
+#editor {
+	position: relative;
+	width: 680px;
+	padding: 1px;
+	border: 2px #ccc solid;
+}
+
+#tablePagination { 
+	background-color: #DCDCDC; 
+	font-size: 0.8em; 
+	padding: 0px 5px; 
+	height: 20px
+}
+
+#tablePagination_paginater { 
+	
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#tablePagination img { 
+	padding: 0px 2px; 
+}
+
+#tablePagination_perPage { 
+	float: left; 
+}
+
+#tablePagination_paginater { 
+	float: right; 
+}
+
+#actionplan {
+	width: 300px;
+	margin: 60px auto;
+}
+
+#wordtitle {
+	padding: 1px;
+	border: 2px #ccc solid;
+	height: 30px;
+}
+
+#wordmeaning {
+	padding: 1px;
+	border: 2px #ccc solid;
+	height: 80px;
+}
+
+#rorf {
+	padding: 1px;
+	border: 2px #ccc solid;
+}
+
+#recon {
+	padding: 1px;
+	border: 2px #ccc solid;
+}
+
+#rem {
+	padding: 1px;
+	border: 2px #ccc solid;
+}
+
+#remember {
+	margin-left: 45px;
+	margin-right: 25px;
+}
+
+#forget {
+	margin-left: 25px;
+	margin-right: 45px;
+}
+
+#rec {
+	margin-left: 45px;
+	margin-right: 25px;
+}
+
+#inrec {
+	margin-left: 25px;
+	margin-right: 45px;
+}
+
+#remem {
+	margin-left: 45px;
+	margin-right: 25px;
+}
+
+.mytable thead tr {
+	background-color: #1ba1e2;
+	color: #ffffff;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>爱记单词</title>
+
+	<script type="text/javascript" src="test.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="css/metro-bootstrap.css" rel="stylesheet">
+	<link href="css/metro-bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+	<link href="js/prettify/prettify.css" rel="stylesheet">
+
+	<!-- Load JavaScript Libraries -->
+	<script src="js/jquery/jquery-2.0.3.min.js"></script>
+	<script src="js/jquery/jquery.widget.min.js"></script>
+	<script src="js/jquery/jquery.mousewheel.js"></script>
+	<script src="js/prettify/prettify.js"></script>
+	<script src="js/jquery/jquery.tablePagination.js"></script>
+	<!-- Metro UI CSS JavaScript plugins -->
+	<script src="js/metro/metro-loader.js"></script>
+
+	<!-- CodeMirror-->
+	<script src="cm/lib/codemirror.js"></script>
+
+	<link rel="stylesheet" href="cm/lib/codemirror.css">
+	<link rel="stylesheet" href="cm/theme/solarized.css">
+
+</head>
+<body class="metro">
+<div class="page">
+    <div class="page-region">
+        <div class="page-region-content">
+            <div class="mainpage">
+            <div class="grid fluid">
+                <div class="row" >
+                    <div class="span3">
+                        <nav class="sidebar">
+                            <ul>
+                                <li class="title"><i class="icon-yelp"></i>记单词</li>
+                                <li class="active"><a href="#"><i class="icon-home"></i>Dashboard</a></li>
+                                <li class="stick bg-red" ><a href="#"><i class="icon-user"></i>账户管理</a></li>
+                                <li class="stick bg-yellow">
+                                    <a class="dropdown-toggle" href="#"><i class="icon-files"></i>计划管理</a>
+                                    <ul class="dropdown-menu" data-role="dropdown">
+                                        <li><a href="">我的计划</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="">添加计划</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="">删除计划</a></li>
+                                    </ul>
+                                </li>
+                                <li class="stick bg-green">
+                                    <a class="dropdown-toggle" href="#"><i class="icon-database"></i>单词库管理</a>
+                                    <ul class="dropdown-menu" data-role="dropdown">
+                                        <li><a href="">查看单词库</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="">添加单词库</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="">删除单词库</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="span9 padding20">
+                        <div id="checkin">
+				            <div class="padding15 ">
+				                <button class="command-button info shadow" id="actiondefault">
+				                    <h3>
+				                    <i class="icon-rocket on-left"></i>
+				                    执行默认计划
+				                    <small class="padding5">我们已经为您精心设计好一套计划，点击即可开始！</small>
+				                    </h1>
+				                </button>
+				            </div>
+				        </div>
+				        <h3 id="plantitle" style="display:none;">即将执行的计划</h3>
+				        <div id="myclock" style="font-size: 15px"></div>
+						<div id="plancontent"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <div class="page-footer-content">
+            <!--<div data-load="header.html"></div>-->
+        </div>
+    </div>
+</div>
+ 
+
+</body>
+
+
+</html>

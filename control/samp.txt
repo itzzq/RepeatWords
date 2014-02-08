@@ -1,0 +1,199 @@
+Q: absurd
+A: [∂b's∂:d]
+A: a.荒谬的，荒唐的
+
+Q: radius
+A: ['reidi∂s]
+A: n.半径，半径范围
+
+Q: slack
+A: [slæk]
+A: a.懈怠的；松的n.[pl.]宽松裤vi.懈怠
+
+Q: physiological
+A: [‚fizi∂'l)d3ik∂l]
+A: a.生理的，生理学的
+
+Q: hover
+A: ['h)v∂]
+A: vi.翱翔，盘旋；徘徊；彷徨，犹豫
+
+Q: bud
+A: [bΛd]
+A: n.叶芽，花蕾vi.发芽，萌芽
+
+Q: to perfection
+A: []
+A: 完美地，尽善尽美地，完全地
+
+Q: sulfur
+A: ['sΛlf∂]
+A: n.硫
+
+Q: execution
+A: [‚eksi'kju:∫∂n]
+A: n.死刑；实行，执行，履行；演奏，表演
+
+Q: bug
+A: [bΛg]
+A: n.虫子；故障；窃听器vt.纠缠；装窃听器
+
+Q: adhere
+A: [∂d'hi∂]
+A: vi.粘附,附着；遵守,坚持；追随,支持
+
+Q: aisle
+A: [ail]
+A: n.过道，通道
+
+Q: quantify
+A: ['kw)nti‚fai]
+A: vt.确定…的数量，量化
+
+Q: paralyse
+A: ['pær∂laiz]
+A: 见paralyze
+
+Q: racket
+A: ['rækit]
+A: n.喧嚷，吵闹；敲诈，诈骗；球拍
+
+Q: heir
+A: [e∂]
+A: n.继承人
+
+Q: regime
+A: [rei'3i:m]
+A: n.政治制度，政权
+
+Q: affiliate
+A: [∂'filieit]
+A: vt.使隶(附)属于n.附属机构,分公司
+
+Q: in duplicate
+A: []
+A: 一式两份
+
+Q: emigrate
+A: ['emigreit]
+A: vi.移居国外(或外地)
+
+Q: skull
+A: [skΛl]
+A: n.颅骨，脑壳
+
+Q: oppress
+A: [∂'pres]
+A: vt.压迫；使(心情等)沉重，使烦恼
+
+Q: compatible
+A: [k∂m'pæt∂b∂l]
+A: a.兼容的；能和睦相处的，合得来的
+
+Q: incidence
+A: ['insid∂ns]
+A: n.发生率
+
+Q: fixture
+A: ['fikst∫∂]
+A: n.[pl.]固定装置；固定在某位置的人(或物)
+
+Q: savage
+A: ['sævid3]
+A: a.凶猛的；野蛮的n.野蛮人vt.乱咬；抨击
+
+Q: hysterical
+A: [hi'sterik∂l]
+A: a.情绪异常激动的，歇斯底里般的
+
+Q: sturdy
+A: ['st∂:di]
+A: a.强壮的，结实的，坚固的；坚定(强)的
+
+Q: disclose
+A: [dis'kl∂uz]
+A: vt.揭露，泄露，透露
+
+Q: alleviate
+A: [∂'li:vieit]
+A: vt.减轻，缓解，缓和
+
+Q: inclusive
+A: [in'klu:siv]
+A: a.包括一切(费用,时间等在内)的
+
+Q: overturn
+A: [‚∂uv∂'t∂:n]
+A: v.(使)翻转(倾覆，倒下)；颠覆，推翻
+
+Q: armour
+A: ['α:m∂]
+A: 见armor
+
+Q: supersonic
+A: [‚su:p∂'s)nik‚ ‚sju:-]
+A: a.超声的，超音速的
+
+Q: virgin
+A: ['v∂:d3in]
+A: n.处女，未婚女子a.未经使用的；处女的
+
+Q: toll
+A: [t∂ul‚t)l]
+A: n.过路(桥)费;损失,伤亡人数v.敲(钟)
+
+Q: glide
+A: [glaid]
+A: vi.／n.滑行，滑动，滑翔
+
+Q: drainage
+A: ['dreinid3]
+A: n.排水系统，下水道；排水，放水
+
+Q: originate
+A: [∂'rid3ineit]
+A: vi.起源于，来自vt.创造，创始，开创
+
+Q: stereotype
+A: ['steri∂taip]
+A: n.老套，固定模式vt.对…形成固定看法
+
+Q: prey
+A: [prei]
+A: n.捕获物；受害者v.捕食；折磨
+
+Q: drought
+A: [draut]
+A: n.干旱，旱灾
+
+Q: chunk
+A: [t∫Λŋk]
+A: n.厚片，大块；相当大的部分(数量)
+
+Q: cork
+A: [k):k]
+A: n.软木；软木塞vt.用瓶塞塞住
+
+Q: relay
+A: ['ri:lei‚ ri:'lei]
+A: n.接力赛；中继转播(设备)vt.转述；转播
+
+Q: reside
+A: [ri'zaid]
+A: vi.居住，定居；(in)(性质等)存在，在于
+
+Q: outrage
+A: ['aut‚reid3]
+A: n.义愤，愤慨；暴行vt.激起…的义愤
+
+Q: tug
+A: [tΛg]
+A: v.用力拖(或拉)n.拖船；猛拉，牵引
+
+Q: defy
+A: [di'fai]
+A: vt.(公然)藐视；使成为不可能；挑，激
+
+Q: corps
+A: [k):]
+A: n.(通信等兵种的)部队；(同类作的)一组
