@@ -3,7 +3,7 @@ RepeatWords
  --- 
 ####Origin
 
-Last year I wanted to pass the CET-6 but I cannot stop programming, so I decided to make a app for improving my poor vocabulary. I used Ubuntu as my daily OS, and I wanted to make desktop application since I had two web applications programming. Then I found [node-webkit](https://github.com/rogerwang/node-webkit), it can available on Linux, Mac OSX and Windows! Afterwards, I read the node-webkit APIs and [translate](http://itzzq.tumblr.com/search/node-webkit) some of them into Chinese for deeper understanding. With two months working, I finally temporarily finish it.
+Last year I wanted to pass the CET-6 but I couldn't stop programming, so I decided to make an app for improving my poor vocabulary. I used Ubuntu as my daily OS, and I wanted to make desktop application since I had two web applications programming. Then I found [node-webkit](https://github.com/rogerwang/node-webkit), it can be applicable on Linux, Mac OSX and Windows! Afterwards, I read the node-webkit APIs and [translated](http://itzzq.tumblr.com/search/node-webkit) some of them into Chinese for deeper understanding. With two months working, I finally temporarily finish it.
 
 ![screenshot](https://github.com/itzzq/RepeatWords/blob/master/screenshot/screenshot70.png?raw=true)
 
